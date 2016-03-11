@@ -1,0 +1,11 @@
+1> Constructor is a special kind of method
+2> Same name of the class name
+3> NO Return type
+4> Used to initialize the newly created object
+5> When there is NO constructor defined in the class
+	Then the default constructor will be provided by the compiler
+6> Constructors can be overloaded
+new keyword does 3 things
+1> creates an Object
+2> allocates the memory on heap for an object
+3> invoke the constructor to initialize the newly created Object

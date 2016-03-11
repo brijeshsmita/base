@@ -1,0 +1,29 @@
+A method has a name followed by round parenthesis and a body
+A method body contain set of code to perform specific task
+A method also has a return type
+If a method does not return anything then the return type is void
+A method can have no or any number of parameters/arguments
+A method can be overloaded
+	->same method name with different parameters list
+		1->Different number of parameters
+		2> different dataType of parameter
+		3> different sequence of parameter
+
+** In case of method overloading compiler will never consider the
+	return type of the method	
+ex:
+	class MyMethod{
+		public int add(int n1,int n2){
+			return n1+n2;
+		}
+		public int add(int n1,int n2,int n3){
+			return n1+n2+n3;
+		}
+		public double add(int n1,int n2,double n3){
+			return n1+n2+n3;
+		}
+		public double add(double n1,int n2,int n3){
+			return n1+n2+n3;
+		}		
+						
+	}

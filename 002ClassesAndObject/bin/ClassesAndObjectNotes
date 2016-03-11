@@ -1,0 +1,90 @@
+/*instance variable are declared at class level
+	each object has its own copy of instance var
+	all instance var resides in heap memory and has the default value
+	instance var are not class variable
+	 * */
+	 
+//new keyword performs following task
+	//1> create object on heap
+	//2> allocate memory to the instance variable
+	//3> initialize instance variable
+	//** instance variable always has a default value
+
+//local variable are variables which are within a method, loop, block
+or in list of parameters
+//are always stored on stack
+//never has a default value therefore must be initialized before use
+//we can have same name of local variable as of instance var
+
+
+//this refers to current object
+//explicit this reference has to be used only when
+//local variable name and instance variable name are same
+
+	private static String bankName;
+	//static variable are class variable which has single copy per class\
+	//all instance share the same copy of static variable
+	//static bloack is used to initialize only static variables	
+===================METHOD OVERLOADING====================
+/*Method overloading is the concept of having method of same name
+ * with different parameter/argument list,
+ * return type may or may not be same
+ * different argument list means:
+ * 1> number of arguments
+ * 2> data type of arguments
+ * 3> sequence of argument list
+ */
+ //calling of method in overloading
+//is decided at runtime by the java compiler, by argument list
+======================================================================
+===================VARIABLE ARGUMENTS==================
+VAR-ARGS
+/*Var-Args is aloso known as variable argument 
+ * which is dynamic array creation at runtime
+ * number of argument decide the size of array
+ * 1> we can have only one var-arg in a parameter list
+ * 2> it should be the last parameter in the arg-list 
+ */
+======================================================================
+=====================CONSTRUCTOR======================================
+/*1>Constructor are the special kind of method
+	 *2> which has the same name as the Class Name
+	 *3> never has a return type
+	 *4> to initialize the newly created object
+	 *5> if a class has any constructor then,
+	 *  no default constructor will be provide by the java compiler
+	 *6> Constructors can be overloaded
+	 7>//constructor cannot be inherited
+	 8>Constructor in inheritance are invoked in super to sub hierarchy
+	 */	
+=======================================================================
+======================OBJECT CLASS====================================
+1> whenever we create any class in java, it automatically inherits from
+	Object class, therefore it is Super-cosmic class in java
+2> It provides inbuild 9 methods
+	1> toString()
+	2> hashCode()
+	3> getClass()
+	4> clone()
+	5> finalize()
+	6> wait()
+	7> notify()
+	8> notifyAll()
+	9> equals()
+3> toString()-it s a callback method of object class which returns 
+		String:
+			a) fully qualified class name(getClass().getName()
+			b) "@"
+			c) hex representation of hashCode()
+   if a class does not override toString() method
+   then Object class toString is invoked
+4> hashCode()- it return the hashCode of an object which is a unique
+				number generated for every object
+
+
+
+
+
+
+
+

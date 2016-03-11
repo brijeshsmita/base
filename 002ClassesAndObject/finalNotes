@@ -1,0 +1,13 @@
+final is a non-access specifier which can be used with 
+all i.e. variable ,method ,classes
+
+1> A final var is also known as constant in java
+	-it must be initialized and cannot be re-initialized
+	eg: public static final double PI_VALUE=3.14;
+	eg: public static final double RATE_OF_INTEREST;
+	static{
+		RATE_OF_INTEREST=1.02;
+	}
+2>final method cannot be overridden
+3>final class cannot be sub classed or inherited
+In built class String are final class

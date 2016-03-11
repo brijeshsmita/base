@@ -1,0 +1,27 @@
+To provide access to private variable/member of class
+outside the class we define Accessor and Mutator methods
+also known as getters and setters Methods
+
+Rules
+1> all getters and setters must be public
+2> all private variable must have Getters and setters method
+
+Accessor/Getter Rules
+1> method name must be prefixed by get followed by name of the variable
+2> return type must be same of the variable data tye
+3> Takes no argument
+eg: int empId;
+	public int getEmpId(){
+		return empId;
+	} 
+	
+Mutator/Setter Rules
+1> method name must be prefixed by set followed by variable name
+2> return type is void
+3> argument must be same of the variable data tye
+eg: int empId;
+	public void setEmpId(int id){
+		empId=id;
+	} 
+	
+** 'this' is a keyword in java which refers to current object

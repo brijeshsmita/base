@@ -1,0 +1,18 @@
+Object class is a super cosmic class in java
+because any class we create automatically inherits all the properties
+and method of Object class by default
+
+There are 9 method in Object class
+1>toString()
+	-returns String representation of an Object
+	-automatically invoked when ever we try to print an object
+2>equals()
+3>finalize()
+	-invoked by Garbage Collector to de-allocated the unused memory
+	-automatically invoked by GC
+4>hashCode()
+5>getClass()
+6>clone()
+7>wait()
+8>notify()
+9>notifyAll() 
