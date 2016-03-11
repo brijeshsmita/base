@@ -1,0 +1,9 @@
+==================Nested class=================
+a class within a class in klnown as nested class
+used to provide security
+and when the usage of a class is only within that class then we go for inner class
+they are of 4 types
+	1>Inner class-a class within a class
+	2>static inner class-static class within a class( behaves just like static method()
+	3>anonymous inner class-a class which doesn't have name
+	4>method local inner class-class class declared inside method body

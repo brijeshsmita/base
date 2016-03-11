@@ -1,0 +1,24 @@
+1> create a class MyFile which will implement
+AutoCloseable interface
+	-method openFile(){}
+-Now create UseFile class
+where in main method 
+use try with resource block to create object of MyFile class
+and call openFile() method within it
+
+2> create an interface EmployeeService	
+	public Employee addEmployee(Employee emp)
+	public Employee findById(int empId);
+	public Employee findByName(String ename);
+	public Employee [] findAllEmployees();	
+ -> create a class EmployeeServiceImpl which implements
+ 	EmployeeService interface 
+ 	-declare An Array of employee empArr[5] and 
+ 	-add the employee to the array in addEmployee() method
+ 	-in findById() method throw User Defined Exception EmployeeNotFound
+ 	if employee not found
+ 	-in findByName() method throw User Defined Exception EmployeeNotFound
+ 	if employee not found
+-> create a TestEmployee class to and 5 times
+ invoke addEmployee(new Employee("name",salary);
+ invoke findById(),findByName and findAllEmployees methods
