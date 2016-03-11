@@ -1,0 +1,5 @@
+Semaphores-controlling access to resources
+it an abstraction that allows n units to be acquired, 
+and offers acquire and release mechanisms. 
+It safely allows us to ensure that only n processes 
+can access a certain resource at a given time.
