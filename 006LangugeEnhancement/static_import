@@ -1,0 +1,6 @@
+/*
+ * ===============static import==================
+ * The static import feature of java 5 facilitate the java programmer
+ * to access any static method or member directly without class reference
+ * There is no need to quality static member with class name.
+ */

@@ -1,0 +1,20 @@
+/* enum is a keyword in java , a feature which is used to represent
+ * fixed number of well-known values
+ * eg: days, month, payment mode,
+ * enums in java are type safe.
+ * enums in java are reference type just like class and interface
+ * we can define construtors, method, variables inside enum
+ * we can also specify values of enum contants at the creation time
+ */
+
+//enum can also extends a class and inplements interface
+//values() is in-build method of enum which returns an array of enum constant
+//name() method is also in-build which return the name of the constant of enum
+//toString() inbuild
+//we can use enum in switch case 
+//we can compare two enum with == and equals()
+//constants are implicitly static and final
+///constructor in enum must be private
+//enum implicitly implements Serializable and Comparable interface
+//we can define abstract method inside an enum, each constant then implements 
+//each abstract method independently
