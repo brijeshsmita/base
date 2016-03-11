@@ -1,0 +1,15 @@
+	// String are final classes in java
+		//String can also be treated as primitive
+		//String are immutatable class in java
+	//any changes made to string object will create a fresh new object
+	//String can use '+' operator or concatenation
+======================	String Pooling=================================
+	String Pooling-process of replacing several string object with equal value
+	it is a concept when 2 string var has the same value
+	then internally a string pool will be created and
+	value will be stored in the pool and both the var
+	will share this value in the pool
+	
+	note** string pool is created only in case of primitive string
+			not with string delared with new keyword
+===================================================================			

@@ -1,0 +1,30 @@
+======================ABSTRCAT CLASS=======================
+1>A class which is marked with abstract non-access specifier
+	which cannot be instantiated IS CALLED AS ABSTRACT CLASS
+2> Abstract class is meant for sub-classes
+3> used for further extensibility of code
+4> thus must be extended by other class
+eg: abstract class BankAccount{
+}
+5> A class which has any abstract method must be declared as abstract
+6> if a class extends any abstract class then it must override
+all the abstract method OR mark the class itself as an abstract class
+7> Abstract class can have both abstract as well as concrete method
+8> yes we can have constructor in  an abstract class but why we need them 
+if we can't instantiate Abstract Class??
+//constructors are allowed coz in inheritance
+	//constructor is called super to sub
+9> A class which does not have any abstract method can also
+be marked as abstract.
+======================ABSTRCAT METHOD=======================
+1> ABSTRACT METHOD are marked with abstract non-access modifier
+2> does not have body and terminated with semicolan
+eg: 
+	public abstract deposit(double amount);
+3> must to be overridden by the subclass
+eg: class SavingAccount extends BankAccount{
+	public deposit(double amount){
+		sysout("amount depoited");
+		curBal+=amount;
+	}
+}

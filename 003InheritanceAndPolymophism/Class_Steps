@@ -1,0 +1,59 @@
+=======STANDARD CLASS CREATION STEPS IN JAVA==============
+//step 1: package declaration
+//step 2: import if required
+//step 3: public class
+//step 4: private instance/member variable
+//step 5: static variables if required
+//step 6: static init block for initializing static var
+//step 7: init block for initializing var with default value
+//step 8: No-Arg constructor
+//step 9: Overlaoded Constructor
+//step 10: Business Methods
+//step 11: Override toString() method
+//step 12: Getters and setters
+========================SUPER===============================
+// super is a  keyword in java 
+// used to invoke super class constructor or method
+//  call to super in constructor must be first line of code
+
+===============getter and setter===========================
+//private data cannot be accessed outside the class
+//in certain scenario we have to provide access to the private data
+//therefore we must provide getter and setter in our class
+
+RULES FOR GETTERS(ACCESSORS) AND SETTERS(MUTATORS)
+1>all getter and setter must be public
+
+GETTER
+1>prefix is getXxxx()
+2> return type must be same datatype of variable name
+3> does not takes any parametere
+4> return same variable
+public int getMonth(){
+	return month;
+}
+ 
+ SETTER
+ 
+1> prefix set setXxxxx()
+2> void return type
+3> parameter datatype will be same datatype of the variable
+4> set the local variable value to instance variable
+public void setMonth(int month){
+	this.month= month;
+}
+
+
+==========================CONSTRUCTOR CHAINING=======================
+//second usage of 'this' keyword is to invoke current class constructor
+//must be first line of code in constructor call	
+======================================================================
+============================Garbage collector==========================
+/*
+ * Garbage collector is a utility which is used to
+ * deallocate or de-freez the memory which is no more longer in use
+ * It use to invoke Object class finalize() method to de-freez the memory
+ * It is a low priority thread which run at the background.
+ * It resolves the memory leakage.
+ * 
+ */

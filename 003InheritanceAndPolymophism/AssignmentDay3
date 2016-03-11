@@ -1,0 +1,26 @@
+1> create a class Employee
+	int empId;//auto-genarated
+	String fname
+	String lname
+	String email
+	String address
+	String phoneNo
+	static String coName;
+	-create TestEmployee which has main method
+	-create 5 employee object and invoke print() method
+		 to print employee details
+	
+2> create a class Trainee
+	int kinId;//auto-genarated
+	String fname
+	String lname
+	String email
+	String address
+	String phoneNo
+	String subject;
+	-create TestTrainee which has main method
+	-create 5 Trainee object and invoke print() method
+		 to print Trainee details
+3> write a class TestGC
+	create object of Employee and Trainee and 
+	request gc to deallocate the memory		

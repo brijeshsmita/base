@@ -1,0 +1,9 @@
+===================Inheritance==========================
+1>Inheritance is extending the property of base or super class
+in order to achieve re-usability of code
+2>extends keyword help us to achieve inheritance in java
+3>java does not support multiple inheritance
+4> single, multi-level,hierarchy
+5> protected keyword is an access specifier/modifier which is 
+available within the package 
+and only to the sub-class outside the package.

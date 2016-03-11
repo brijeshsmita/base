@@ -1,0 +1,5 @@
+final is a keyword in java
+which is a non-access specifier can be used with
+1> Variable-final var must be initialized and cannot be re-initialized
+2> Method
+3> class
