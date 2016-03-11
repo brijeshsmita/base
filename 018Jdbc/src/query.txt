@@ -1,0 +1,11 @@
+create table mydept
+(deptno number(2) constraint dept_pk primary key ,
+	dname varchar2(20) not null,
+	loc varchar2(10));
+create table myemp 
+(empno number(6) constraint emp_pk primary key,
+	ename varchar2(30),
+	grade char(2),
+dob date, deptno number(2) references mydept(deptno));
+
+insert into mydept values(10,'java','mumbai');

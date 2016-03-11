@@ -1,0 +1,6 @@
+1> create db
+2> get driver in the project
+3> add the driver in classpath of  the project
+4> load and register the driver class
+5> get the connection by passing connection _url,username,pwd
+	to the DriverManger.getConnection() method
