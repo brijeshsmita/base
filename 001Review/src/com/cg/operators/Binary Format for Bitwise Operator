@@ -1,0 +1,53 @@
+Binary format has just two bit,  0 and 1 and that's
+ why is called binary.
+2) In binary arithmetic :
+0 + 0 =  0
+0 + 1 =  1
+1 + 1 = 10
+
+3) Negation bitwise operation will change 0 to 1 and 1 to 0 
+	and it’s denoted by ~.
+4) OR bitwise operation will return 1 if any of operand is 1 
+	and zero only if both operands are zeros.
+5) AND bitwise operation will return 1 only if both operands 
+	are 1, otherwise zero.
+
+6) XOR bitwise operation will return 1 if both operands 
+	are different e.g. one of them is 1 and other is zero 
+	and returns zero if both operands are same e.g. 1,1 or 0,0
+
+7) Integral types in Java (int, long, short and byte) 
+	are signed numbers in Java where most significant bit 
+	(MSB) represent sign of number. 
+	1 will denote a negative number and 0 as MSB will 
+	denote a positive numbers
+
+8) Negative numbers in Java are represented as 2's complement 
+	of number. 2's complement of a number 
+	is 1's complement + 1 and 1's complement means 
+	all zero will turn to 1 and all 1 turned to zero 
+	in a binary number e.g. 1's complement of 10 would 
+	be 01. and 2's complement of 10 would be 10+1 = 11 
+	(all in binary).
+Important points to remember while using bit shift operators in Java
+
+1. Smaller types like byte, short are promoted to int before 
+	applying bit shift operator in Java. 
+	This requires explicit casting on lower type of result.
+
+2. If number of shift positions exceeds with number of bits
+	 in a variable, then remainder operator is used to 
+	 calculate effective bit movement. 
+	 For example int variables contains 32 bit, 
+	 and if you shift bits to 33 times, then its equivalent 
+	 of shifting bits 33%32 or just 1 time. e.g. 8 >> 33 
+	 is equal to 8 >> 1 and this is true for all bit shift 
+	 operators.
+
+3. Since bit shift operators can simulate divide by 2 
+	and multiplied by 2 operation they can be used to 
+	implement fast multiplication and division but on 
+	the cost of readability as its difficult to 
+	comprehend code written using bit shift operators in Java.
+
+
