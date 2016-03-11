@@ -1,0 +1,44 @@
+\\192.168.1.84\\D:\\Assignment Day7
+
+1> create a class MyDate implements Comparable
+	private int day,month,year(all 10 rules)+ovrride equals and hashcode
+2>  create a class Employee implements Comparable	
+	private int empId( auto generate it)
+	private static int numId;
+	private  String ename;
+	private double salary;
+	private MyDate joinDate;
+	private static String coName;
+	(all 10 rules)+ovrride equals and hashcode
+3> create a class EmpNameComparator implements Comparator
+	- to provide sorting by name
+4> create a class EmpJoinDateComparator implements Comparator
+	- to provide sorting by joinDate
+5> create a class EmpSalaryComparator implements Comparator
+	- to provide sorting by salary	
+6> create an interface EmployeeService
+
+in that create ArrayList of Employees
+	public Employee findById(int empId);
+	public Employee findByName(String ename);
+	public ArrayList<Employee> findAllEmployees();	
+	public void addEmployee(Employee emp)
+	public void removeEmployee(Employee emp)
+ -> create a class EmployeeServiceImpl which implements
+ 	EmployeeService interface 
+ 	-create init block
+ 	-in findById() method throw User Defined Exception
+ 	if employee not found
+ 	-in findByName() method throw User Defined Exception
+ 	if employee not found
+
+ 7> create MapTest Class
+ 	create 3 map 
+ 	1> TreeMap<String,SavingAccount>
+ 	3> LinkedHashMap<String,LoanAccount>
+ 	4> HashTable<String,CurrentAccount>
+ 	
+ 8> difference between Vector,ArrayList,LinkedList 3 points
+ 9> difference between HashSet,TreeSet,LinkedHashSet 3 points
+ 9> difference between HashMap,TreeMap,LinkedHashSet,HassTable 3 points
+ 9> difference between Comparable and Comparator 5 points
